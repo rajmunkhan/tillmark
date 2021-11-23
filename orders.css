@@ -1,0 +1,38 @@
+.order_table{
+    width: 1000px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 2px 5px 5px rgb(64 60 67 / 16%);
+    border-radius: 8px;
+}
+.orders{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 400px;
+}
+thead{
+    background-color: #ec5431;
+    border-radius: 8px;
+    height: 48px;
+}
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+  }
+  td{
+      text-align: left;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color: #ec5431;
+    color: white;
+  }

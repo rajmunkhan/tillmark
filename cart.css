@@ -1,0 +1,46 @@
+.productList{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 270px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 4px rgb(64 60 67 / 16%);
+}
+.address{
+    padding: 0px 20px;
+    width: 450px;
+}
+.address h2{
+    padding: 20px 0px;
+}
+.pay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pay button{
+    cursor: pointer;
+    background-color: #ec5431;
+    padding: 8px 25px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+}
+.pay button:hover{
+    border: 1px solid black;
+        box-shadow: 2px 2px 2px black;
+
+}
+.pay p{
+    font-weight: bold;
+    margin: 4px 0px;
+    font-size: 18px;
+}
+.failed{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+}
+.signupbody{
+    background-image: url('pics/signup-bg.jpg');
+    background-size: 1400px 850px;
+    height: 850px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px  #ec5431;
+
+}
+.signup-form form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.signup-form label{
+    font-size: 20px;
+}
+.signup-form input{
+    height: 50px;
+    width: 350px;
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+
+}
+.signup-form button{
+    cursor: pointer;
+    background-color: #ec5431;
+    padding: 10px 90px 10px 90px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+
+}
+button:hover{
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+.new-register{
+    margin: 10px;
+}
+.new-register a{
+    text-decoration: none;
+        color: #ec5431;
+
+}
+#alert{
+    display: flex;
+    justify-content: space-between;
+}
+#alert p{
+    padding-top: 8px;
+}
+#alert button{
+    background: transparent;
+    border: none;
+    padding: 5px;
+    margin: 0px 20px;
+    font-size: 25px;
+}
+.success{
+    background-color: rgb(177, 255, 177);
+    padding: 5px;
+    font-size: 20px;
+}
+.danger{
+    background-color: rgb(255, 167, 167);
+    padding: 5px;
+    font-size: 20px;
+}

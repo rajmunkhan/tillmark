@@ -1,0 +1,110 @@
+
+.border{
+    margin: 50px;
+    width: 302px;
+
+}
+.modal_add strong{
+    font-size: 22px;
+    text-align: center;
+    display: inherit;
+}
+.modal-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    float: left;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    visibility: hidden;
+    background-color: rgb(212, 212, 212,0.5) ;
+    transition: visibility 0s, opacity 1s;
+    
+}
+.modal-active{
+    visibility: visible;
+    opacity: 1;
+}
+.modal_form{
+    position: relative;
+    background-color: white;
+    height: 500px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal_add{
+    position: relative;
+    background-color: white;
+    height: 500px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.modal-close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    padding: 2px 5px;
+    background-color: rgb(235, 90, 65);
+    color: white;
+
+}
+.modal_form input{
+    border: none;
+    margin: 10px;
+}
+.modal_add input{
+    border: 1px solid black;
+    width: 96%;
+    height: 22px;
+    margin: 7px 0px;
+    border-radius: 5px;
+}
+.modal_add label{
+    font-size: 19px;
+}
+.modal-bg form{
+    align-items: center;
+    justify-content: center;
+}
+.login_btn{
+    margin: 5px 20%;
+}
+.plz_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px  #ec5431;
+}
+.plz_login strong{
+    letter-spacing: 2px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.plz_login strong a{
+    color: #ec5431;
+}
+.user_add form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+}
+.user_add form button{
+    padding: 10px 5px;
+    background-color: #ec5431;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    width: 90px;
+    cursor: pointer;
+}

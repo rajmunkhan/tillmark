@@ -1,0 +1,101 @@
+.blacktext{
+    color: black;
+}
+body{
+    margin: 0px;
+}
+.searched-item{
+    padding: 10px 15px;
+    margin: 5px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 4px 4px rgb(201, 201, 201);
+    font-family: 'Open Sans', sans-serif;
+}
+.search-container{
+    display: flex;
+    height: 630px;
+    justify-content: center;
+}
+.left-div{
+    border-right: 1px solid #ec5431;
+    width: 600px;
+    margin: 20px 100px 0px 0px;
+}
+.left-div h2{
+    text-align: center;
+}
+.related_box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.right-div{
+    width: 800px;
+
+}
+.search-items{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.search-items img{
+    
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+.search-items .desc{
+    width: 600px;
+    margin: 10px;
+    
+}
+.desc div{
+    margin: 13px 0px;
+    
+}
+.desc .title{
+    height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+.title a{
+    color: black;
+}
+.rating{
+    font-size: 21px;
+    display: block;
+}
+.rating i{
+    color: rgba(236, 197, 24, 0.925);
+}
+.count{
+    display: inline;
+}
+.price{
+    font-size: 20px;
+}
+.desc button{
+    background-color: #ec5431;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.desc button a{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    
+}
+.desc button:hover{
+    background-color: #ec7c63;
+    
+}
+.related_products{
+    margin: 30px;
+    width: 150px;
+}
+.related_products img{
+    width: 150px;
+}

@@ -1,0 +1,53 @@
+
+.margin15{
+    margin: 15px 0px;
+}
+
+.textcenter{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}
+.m_form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin:50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.m_block{
+    display: flex;
+    height: 600px;
+}
+.m_halves{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 50%;
+    height: 600px;
+}
+.m_form input{
+    height: 40px;
+    margin: 15px 0px;
+    border-radius: 8px;
+}
+.m_form label{
+    font-size: 20px;
+}
+.m_form select{
+    padding: 5px;
+}
+.m_form button{
+    display: inline;
+    cursor: pointer;
+    background-color: #ec5431;
+    padding: 10px 90px 10px 90px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.m_form button:hover{
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+}

@@ -1,0 +1,78 @@
+/* .whole{
+    /* content: "";
+    background: url('pics/login.jpg')no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    top: 150px;
+    position: absolute;
+    z-index: -1; 
+}*/
+   .textcenter{
+       text-align: center;
+       margin: 5px 0px;
+   } 
+.whole{
+    background-image: url('pics/login.jpg');
+    background-size: 1400px 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+.managerbg{
+    background-image: url('pics/managerlogin.jpg');
+    background-size: 1400px 706px;
+    background-repeat: no-repeat;
+    
+}
+.login-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px  #ec5431;
+}
+.login-form form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-form label{
+    font-size: 20px;
+}
+.login-form input{
+    height: 50px;
+    width: 350px;
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    margin: 7px 0px;
+
+}
+.login-form button{
+    display: inline;
+    cursor: pointer;
+    background-color: #ec5431;
+    padding: 10px 90px 10px 90px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+
+}
+button:hover{
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+.new-register{
+    display: block;
+}
+.new-register a{
+    color: #ec5431;
+}

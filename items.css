@@ -1,0 +1,35 @@
+.fruit_box a{
+    text-decoration: none;
+    color: black;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fruit_box i{
+    font-size: 25px;
+    color: rgba(236, 197, 24, 0.925);
+    
+}
+.fruit_box{
+    cursor: pointer;
+    width: 200px;
+    display: inline-block;
+    /* border: 2px solid black; */
+    padding: 30px;
+    margin: 20px;
+}
+.fruit_box:hover{
+    border-bottom: 2px solid #ec5431;
+}
+.fruit_box img{
+    width: 200px;
+    height: 200px;
+}
+.product_name{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
